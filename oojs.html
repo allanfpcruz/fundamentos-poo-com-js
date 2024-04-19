@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Object-oriented JavaScript example</title>
+    <style>
+      body {
+        background-color: lightblue;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+      }
+
+      .container {
+        background-color: white;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.507);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <p>This example requires you to enter commands in your browser's JavaScript console (see <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools">What are browser developer tools</a> for more information).</p>
+      <form>
+        <p>Insira propriedade</p>
+        <input type="text" id="propriedade">
+        <p>Insira valor</p>
+        <input type="text" id="valor"> 
+        <button id="button">Enviar</button>
+      </form>
+    </div>
+    
+    <script src="oojs.js"></script>
+  </body>
+
+</html>
